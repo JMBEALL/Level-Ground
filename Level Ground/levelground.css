@@ -1,0 +1,142 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Abel', sans-serif; ;
+}
+
+.hero{
+    background-color: #557d99d3;
+    height: 55vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    /* border:2px solid black; */
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: .85;
+    box-shadow: 4px 4px 6px white,-4px -4px 6px white;
+    margin-right: 110px;
+    
+}
+
+ ul {
+    display: flex;
+    /* justify-content:space-around; */
+    width: 150px;
+    padding:25px;
+}
+
+li {
+    list-style-type:none;
+    color: white;
+    margin: 4%;
+}
+
+a {
+    color:white;
+    margin-right: 25px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 2px 4px;
+    background-color: white;
+    color:#557d99d3;
+
+}
+
+a:hover {
+    opacity: .6;
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    /* border:2px solid black; */
+    padding: 4rem 1rem;
+    margin: 0 auto;
+}
+
+main h1 {
+    color:white;
+    text-transform: uppercase;
+    font-size: 2.73rem;
+}
+
+main p {
+    color:white;
+    letter-spacing: .03rem;
+}
+
+main span{
+    color:white;
+    margin-top: 70px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+
+    .white {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border:2px solid black; */
+        max-width: 500px;
+        margin: 50px auto;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+    
+    .flexbox {
+        display: flex;
+        background-color: #bebfc5a3;
+        height: 50vh;
+        justify-content: space-around;
+        align-items: baseline;
+
+    }
+
+.cardOne, .cardTwo {
+    /* border: 2px solid black; */
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #557d99d3;
+
+}
+
+.cardOne .box {
+    background-image: url("beltMartialArts.jpg");
+    background-size: cover;
+}
+
+.cardTwo .box {
+    background-image: url("floorMartialArts.jpg");
+    background-size: cover;
+}
